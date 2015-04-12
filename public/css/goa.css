@@ -1,0 +1,48 @@
+.hidden {
+	display: none;
+}
+
+html, body, #map-canvas {
+	height: 100%;
+	margin: 0; 
+	padding: 0;
+}
+
+#map-canvas {
+	width: 75%;
+}
+
+.inline {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.data {
+	/*background: red;*/
+	width: 24%;
+}
+
+.place {
+	background: rgba(19, 35, 47, 0.9);
+	color: #008cba;
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	cursor: pointer;
+}
+
+.added {
+	background: rgba(19, 35, 47, 1.0);
+}
+
+.generateBtn {
+	margin-top: 10px;
+	background: #1ab188;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 1em;
+	cursor: pointer;
+}
